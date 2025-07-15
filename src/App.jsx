@@ -3,7 +3,8 @@ import ListTasks from './components/ListTasks'
 import { Toaster } from 'react-hot-toast';
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
-import CreateTask from './components/CreateTAsk';
+import CreateTask from './components/CreateTask';
+
 
 function App() {
   const [tasks, setTasks] = useState([])
